@@ -1,0 +1,86 @@
+@import url('../../common.css');
+@import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap');
+
+body {
+    background: #666;
+}
+
+#wrapper {
+    width: 900px;
+    height: 720px;
+    background-color: white;
+    margin: 0 auto;
+}
+
+header {
+    height: 100px;
+    background-color: #123456;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(184, 184, 12);
+    padding: 10px;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+strong {
+    color: white;
+    font-size: 90px;
+    font-family: 'East Sea Dokdo', cursive;
+}
+span {
+    font-size: 60px;
+    font-family: 'East Sea Dokdo', cursive;
+}
+em {
+    font-size: 80px;
+    color: rgb(192, 189, 189);
+    font-family: 'East Sea Dokdo', cursive;
+}
+
+.menu {
+    width: 200px;
+    height: 620px;
+    background-color: rgb(192, 189, 189);
+    float: left;
+    padding: 15px;
+}
+
+.menu li {
+    margin: 20px 0 0 10px;
+    text-decoration: underline;
+    font-family: '굴림';
+}
+
+footer {
+    height: 50px;
+    background-color: gray;
+    line-height: 50px;
+    text-indent: 20px;
+    font-size: 16px;
+}
+
+h2 {
+    height: 50px;
+    background-color: rgb(121, 10, 10);
+    color: rgb(196, 177, 13);
+    line-height: 50px;
+    padding-left: 220px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+.content p {
+    margin: 20px 20px 20px 220px;
+    text-align: justify;
+    font-family: '굴림';
+    line-height: 1.3;
+}
+
+.menu li a:hover {
+    color: #662;
+    border-bottom: 1px dashed #662;
+}
